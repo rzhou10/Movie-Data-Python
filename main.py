@@ -34,9 +34,9 @@ print(f"Time Average: {allStats.getRunAvg()} min")
 print(f"Shortest film: {allStats.getShortestFilm()} at {allStats.getMinRun()} min")
 print(f"Longest film: {allStats.getLongestFilm()} at {allStats.getMaxRun()} min")
 
-print(f"Lowest grossing: {allStats.getLowestFilm()} at ${allStats.getMinGross()}")
-print(f"Highest grossing: {allStats.getHighestFilm()} at ${allStats.getMaxGross()}")
-print(f"Gross Average: ${allStats.getGrossAvg()}")
+print(f"Lowest grossing: {allStats.getLowestFilm()} at ${allStats.getMinGross():,}")
+print(f"Highest grossing: {allStats.getHighestFilm()} at ${allStats.getMaxGross():,}")
+print(f"Gross Average: ${allStats.getGrossAvg():,}")
 
 print("Please check out the Excel for more stats!")
 

@@ -42,7 +42,7 @@ class Stats():
                     self.minGross = valToInt
                     self.lowestFilm = titleList[i + 1]
         
-        self.grossAvg = round(totalGross / nonNA, 0)
+        self.grossAvg = round(totalGross / nonNA, 2)
 
     def getGrossAvg(self):
         return self.grossAvg
@@ -75,7 +75,7 @@ class Stats():
                 self.minRun = valToInt
                 self.shortestFilm = titleList[i + 1]
 
-        self.runAvg = round(totalRun / len(noFirst), 0)
+        self.runAvg = round(totalRun / len(noFirst), 2)
     
     def getRunAvg(self):
         return self.runAvg
